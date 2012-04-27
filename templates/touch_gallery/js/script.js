@@ -12,4 +12,4 @@ function addHash(){
 	window.location.hash = "active";
 }
 window.addEventListener('load', loaded, false);
-window.addEventListener('touchstart', addHash, false);
+window.addEventListener('mousedown', addHash, false);
